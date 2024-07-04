@@ -1,1 +1,1 @@
-# magicMath
+This was a group project- I worked with Sandra Castillo and Trinity Paulson. I was responsible for styling, the "workspace" functionality, and some button functionality for the math board, operations, and "New Game" button. 
