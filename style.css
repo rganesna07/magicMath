@@ -1,0 +1,157 @@
+/* Group Members: Trinity Paulson, Sandra Castillo, Rithika Ganesna 
+this file handles our CSS styling*/
+html{
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: #e0ebeb; 
+}
+
+footer{
+    font-family: fantasy; 
+    background-color: #424874; 
+    border-style: double;
+    border-width: 10px;
+    border-radius: 15px;
+    border-color:  #e0ebeb;
+    color: #e0ebeb;  
+    margin-top: 30px;
+}
+
+header{  
+    background-color: #424874; 
+    padding: 20px;
+    border-style: double;
+    border-width: 10px;
+
+}
+
+h1{
+    background-color: #424874; 
+    color:#e0ebeb; 
+    margin: 10px;
+    padding: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+#game-all {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 400px 150px 400px;
+    width: 100%;
+    margin: 20px;
+    
+
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 5px;
+    margin: 10px;
+    float: left;
+    height: 50%;
+    
+    
+}
+
+/*number board*/
+#game-board>button {
+    font-size: 70px;
+    border: 2px solid #dcd6f7; 
+    background-color: #dcd6f7; 
+    border-radius: 20px;
+}
+
+/*operatorss*/
+#game-math { 
+    display: grid;
+    grid-template-columns: 96px;
+    grid-template-rows: 96px 96px 96px;
+    gap: 5px;
+    margin: 10px;
+    float: right;
+    height: 50%;
+}
+
+#game-math>button {
+    /* position: relative; */
+    top: 10px;
+    right: 10px;
+    float: right;
+    font-size: 70px;
+    border: 8px solid #a6b1e1; 
+    background-color: #a6b1e1; 
+    border-radius: 20px;
+}
+
+/*work space*/
+#work-area {
+    display: grid;
+    float: right;
+    color: black; 
+    text-align: center;
+    border: 8px solid #a6b1e1; 
+    background-color: #f4eeff; 
+    margin-left: 20px;
+    height: 80%;
+    border-radius: 20px;
+    border-style: double;
+
+}
+
+#score-board {
+    font-family: inherit;
+    display: inline-flex;
+    margin-right: 200px;
+}
+
+#score {
+    float: left;
+    margin-right: 100px;
+}
+
+
+#wins {
+    float: left;
+    margin-right: 30px;
+}
+
+#losses {
+    margin-right: 30px; 
+}
+
+#p_losses {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#p_wins {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#goal_sign {
+    font-size: 30px;
+}
+
+#newGameButton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #a6b1e1; 
+}
+
+
+
+button {
+    background-color: #cec8da;
+}
+
+
